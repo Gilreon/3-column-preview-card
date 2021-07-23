@@ -1,0 +1,139 @@
+* {
+    overflow: hidden;
+   
+
+}
+body {
+    width:auto;
+    max-width: 1400px;
+    min-width: 375px;
+
+}
+
+p, h4 {
+    padding-left: 15px;
+    margin: 0;
+
+}
+
+h4 {
+    font-family: 'Lexend Deca', sans-serif;
+    padding-top: 25%;
+    padding-bottom: 10%;
+    font-size: 25px;
+    color: hsl(0, 0%, 95%);
+
+}
+
+p {
+    position: relative;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    font-weight: 700px;
+    word-spacing: 2px;
+    line-height: 1.6;
+    padding-top: 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-left: 15px;
+
+    
+}
+
+.img {
+    padding-top: 25px;
+
+}
+
+.main-container {
+    display:  flex;
+    flex-direction: row;
+    align-items: stretch;
+    max-width: 950px;
+    max-height: 450px;
+    width: 700px;
+    height: 450px;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 50px;
+    border-collapse: separate;
+    border-radius: 15px;
+}
+
+#button-sedan {
+    color: #e38826;
+
+}
+
+#button-sedan:hover, #button-suv:hover, #button-luxury:hover {
+    color: white;
+
+}
+
+
+
+#button-suv {
+    color: #006970;
+
+}
+
+#button-luxury {
+    color: #004241;
+
+}
+
+
+
+
+.button {
+    margin-top: 80px;
+    margin-left: 15px;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 30px; 
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.button:hover{
+    background-color: transparent;
+    text-decoration: none;
+    border: solid 1px white;
+    cursor: pointer;
+}
+
+.sedan-container, .suv-container, .luxury-container  {
+    padding-left: 20px;
+    padding-right: 50px;
+    
+
+}
+
+
+
+.sedan-container {
+    flex: auto;
+    background-color: #e38826;
+    border-top-left-radius: 15px;
+
+}
+
+.suv-container {
+    background-color: #006970;
+}
+
+.luxury-container {
+    background-color: #004241;
+    border-top-right-radius: 15px;
+
+}
+
+.attribution {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:20px;   /* Height of the footer */
+}
